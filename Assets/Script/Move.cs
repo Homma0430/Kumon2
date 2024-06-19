@@ -1,27 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Move : MonoBehaviour
 {
     [SerializeField] Rigidbody _rigidBody;
     bool isStop = false;
-    public float moveSpeed = 5f; // ˆÚ“®‘¬“x
-
-
+    public float moveSpeed = 5f; 
+    public float horizontalMoveSpeed = 3f; 
     void Awake()
     {
         _rigidBody = GetComponent<Rigidbody>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        //TODO
-        //ˆÚ“®‚¹‚æ
-        //https://candle-stoplight-544.notion.site/4e021f226d584730b715626436ccc330
+        if (!isStop)
+        {
+            float horizontalInput = 0f;
+            if (Input.GetKey(KeyCode.D))
+            {
+                horizontalInput = -1f;
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                horizontalInput = 1f;
+            }
+            Vector3 forwardMove = transform.right * moveSpeed * Time.deltaTime;
+            Vector3 horizontalMove = transform.forward * horizontalInput * horizontalMoveSpeed * Time.deltaTime;
+            Vector3 move = forwardMove + horizontalMove;
+            _rigidBody.MovePosition(_rigidBody.position + move);
+        }
+    }
 
-        _rigidBody.MovePosition(_rigidBody.position + transform.right * moveSpeed * Time.fixedDeltaTime);
+    public void StopMovement()
+    {
+        isStop = true;
     }
 }
