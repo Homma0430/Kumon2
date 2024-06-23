@@ -11,7 +11,7 @@ public class RestartGame : MonoBehaviour
         initialPosition = playerObject.transform.position;
     }
 
-    // リスタートするためのメソッド
+    // リスタート
     public void Restart()
     {
         playerObject.SetActive(true);

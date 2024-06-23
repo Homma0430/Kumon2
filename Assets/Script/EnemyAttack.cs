@@ -12,7 +12,7 @@ public class EnemyAttack : MonoBehaviour
 
         if (playerScript != null)
         {
-            // プレイヤーにダメージを与える
+            
             playerScript.TakeDamage(damage);
         }
     }

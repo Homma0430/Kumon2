@@ -8,12 +8,11 @@ public class PlayerHP : MonoBehaviour
     public GameObject player;
     void Start()
     {
-        // ゲーム開始時に現在のHPを最大HPに設定
         currentHP = maxHP;
         Debug.Log("Player HP initialized to " + currentHP);
     }
 
-    // HPを減らすメソッド
+    // HPを減らす
     public void TakeDamage(int damage)
     {
         currentHP -= damage;
@@ -30,7 +29,7 @@ public class PlayerHP : MonoBehaviour
         }
     }
 
-    // HPを回復するメソッド
+    // HPを回復する
     public void Heal(int amount)
     {
         currentHP += amount;
@@ -42,14 +41,14 @@ public class PlayerHP : MonoBehaviour
         Debug.Log("Player healed by " + amount + ", current HP is " + currentHP);
     }
 
-    // プレイヤーが死んだときの処理
+    // プレイヤーが死んだとき
     private void Die()
     {
         uiManager.ShowGameOverPanel();
         player.SetActive(false);
     }
 
-    // 現在のHPを取得するメソッド
+    // 現在のHP
     public int GetCurrentHP()
     {
         return currentHP;

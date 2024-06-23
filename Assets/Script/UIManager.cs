@@ -12,17 +12,16 @@ public class UIManager : MonoBehaviour
         clearPanel.SetActive(false);
     }
 
-    // Game Over パネルを表示する
+    // Game Over パネルを表示
     public void ShowGameOverPanel()
     {
         gameOverPanel.SetActive(true);
     }
 
-    // Clear パネルを表示する
+    // Clear パネルを表示
     public void ShowClearPanel()
     {
         clearPanel.SetActive(true);
     }
 
-    // カウントダウンやその他UI操作のためのメソッドを追加する場合はここに記述する
 }

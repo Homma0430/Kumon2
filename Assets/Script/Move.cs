@@ -4,7 +4,7 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     [SerializeField] Rigidbody _rigidBody;
-    bool isStop = true; // 最初は停止状態にしておく
+    bool isStop = true; 
     public float moveSpeed = 5f;
     public float horizontalMoveSpeed = 3f;
     public UIManager uiManager;
@@ -14,7 +14,7 @@ public class Move : MonoBehaviour
         _rigidBody = GetComponent<Rigidbody>();
     }
 
-    // 動き出すメソッド
+    
     public void StartMovement()
     {
         isStop = false;
