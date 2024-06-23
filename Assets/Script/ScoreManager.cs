@@ -16,11 +16,19 @@ public class ScoreManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        
+        InitializeScore();
+    }
+
+    private void InitializeScore()
+    {
+        Score = 0; 
     }
 
     public void AddScore(int points)
     {
         Score += points;
-        Debug.Log("Score: " + Score);
+        Debug.Log("" + Score);
     }
 }

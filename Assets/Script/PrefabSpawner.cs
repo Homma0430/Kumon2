@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class PrefabSpawner : MonoBehaviour
 {
-    public GameObject prefab; // ¶¬‚·‚éPrefab
-    public int numberOfPrefabs = 10; // ¶¬‚·‚éPrefab‚Ì”
-    public float spacing = 5.0f; // “™ŠÔŠu‚Ì‹——£
-
+    public GameObject prefab; 
+    public int numberOfPrefabs = 10; 
+    public float spacing = 5.0f;
     void Start()
     {
         SpawnPrefabs();

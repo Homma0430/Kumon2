@@ -63,6 +63,12 @@
     <Compile Include="Assets\Script\Point.cs" />
     <Compile Include="Assets\Script\PlayerStop.cs" />
     <Compile Include="Assets\Script\Item.cs" />
+    <Compile Include="Assets\Script\PlayerHP.cs" />
+    <Compile Include="Assets\Script\EnemyAttack.cs" />
+    <Compile Include="Assets\Script\UIManager.cs" />
+    <Compile Include="Assets\Script\Countdown.cs" />
+    <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\RestartGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStop: MonoBehaviour
 {
-    public string targetTag = "Target"; // ターゲットのタグ
+    public string targetTag = "Target"; 
 
     private Move moveScript;
 
