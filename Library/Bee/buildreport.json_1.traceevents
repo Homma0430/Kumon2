@@ -1,0 +1,555 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1719252474807697, "dur": 1892899, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252474807909, "dur": 2745, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252474810657, "dur": 27311, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252474837972, "dur": 1092043, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252475930018, "dur": 770069, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252476700091, "dur": 503, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252476701587, "dur": 34, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1719252475573863, "dur": 344103, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719252475574674, "dur": 38519, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719252475902588, "dur": 4449, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719252475907041, "dur": 10918, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719252475907630, "dur": 9572, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719252475922178, "dur": 1354, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1719252475921484, "dur": 2072, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252476701844, "dur": 593, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719252475980426, "dur":1676, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252475982108, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1719252475982177, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1719252475982189, "dur":828, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1719252475983187, "dur":401, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252475983589, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690129, "dur":214, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690343, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690389, "dur":56, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690445, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690468, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690469, "dur":138, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690608, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690615, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690634, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690641, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690652, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690657, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690666, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690667, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690670, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690672, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690676, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690678, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690681, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690684, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690688, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690689, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690693, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690695, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690698, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690700, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690703, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690705, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690709, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690711, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690714, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690716, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690719, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690720, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690723, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690725, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690728, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690730, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690733, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690735, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690741, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690749, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476690764, "dur":1880, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719252475984198, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252475984198, "dur":2845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252475987044, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1719252475987205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252475989711, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1719252475992260, "dur":6085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1719252475998349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252475998354, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1719252476000674, "dur":9645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719252476010324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476010331, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719252476013798, "dur":183039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719252476196844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476196855, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719252476200178, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1719252476200236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476200305, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1719252476201647, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719252476201683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476201690, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719252476205250, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1719252476205332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476205340, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1719252476207488, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719252476207524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476207529, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719252476208873, "dur":7082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1719252476215960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476215970, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1719252476218369, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719252476218435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719252476218457, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719252476219948, "dur":470191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252475984395, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252475984395, "dur":2779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252475987174, "dur":3040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252475990219, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252475990636, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252475992363, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1719252475992446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252475992687, "dur":5926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1719252475998653, "dur":4759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476003416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476003588, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476004526, "dur":6060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476010590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476010596, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476014729, "dur":5376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476020110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476020120, "dur":5396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476025552, "dur":4882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476030438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476030445, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476032683, "dur":4349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476037037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476037044, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476040346, "dur":7808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476048158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476048165, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476051994, "dur":135906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476187906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476187917, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476189348, "dur":48270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476237624, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719252476237637, "dur":7124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719252476244794, "dur":445347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252475983005, "dur":605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252475983619, "dur":3402, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252475987029, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1719252475987035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252475988656, "dur":501, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1719252475989162, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1719252475989214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252475989733, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1719252475991655, "dur":28993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476020651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252476020736, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476025515, "dur":5607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476031127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252476031135, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476032989, "dur":9604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476042597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252476042605, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476045919, "dur":73128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476119053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252476119063, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476120230, "dur":279158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476399403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719252476399411, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719252476401625, "dur":288521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719252475984512, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719252475984512, "dur":2587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719252475987102, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1719252475987344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719252476096188, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1719252476099459, "dur":54494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719252476153958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719252476153967, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719252476157267, "dur":139115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719252476296388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719252476296398, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719252476297983, "dur":392157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252475984940, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252475984940, "dur":2164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252475987105, "dur":10805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1719252475997913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252475997928, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1719252476000204, "dur":9924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476010224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476010232, "dur":5930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476016234, "dur":8967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476025211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476025623, "dur":6009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476031686, "dur":6468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476038158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476038166, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476041808, "dur":6291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476048103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476048110, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476053983, "dur":101390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476155379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476155389, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476157880, "dur":58388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476216273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476216282, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719252476218912, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1719252476219022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719252476219030, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1719252476222204, "dur":467939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252475984965, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252475984966, "dur":2064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252475987033, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1719252475987192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252475990247, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1719252475992475, "dur":7175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252475999654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476000123, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476001597, "dur":7371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476008973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476008981, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476011893, "dur":7550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476019447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476019454, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476023292, "dur":5056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476028351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476028358, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476032453, "dur":5491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476037948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476037956, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476041367, "dur":4935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476046389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476046407, "dur":4130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476050616, "dur":227901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476278524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719252476278534, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719252476280180, "dur":409982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252475983958, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252475983959, "dur":3167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252475987126, "dur":10668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1719252475997798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252475998076, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1719252476000471, "dur":10922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476011397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252476011417, "dur":7425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476018926, "dur":7526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476026468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252476026474, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476030126, "dur":5778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476035909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252476035919, "dur":5473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476041463, "dur":5895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476047362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252476047370, "dur":3518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476050946, "dur":206429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476257381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719252476257391, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719252476259428, "dur":430710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252475983347, "dur":469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252475983816, "dur":3309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252475987125, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1719252475987242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252475999042, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1719252476003082, "dur":6800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476009886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476009895, "dur":4905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476014873, "dur":5617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476020494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476020502, "dur":6671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476027222, "dur":6258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476033483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476033490, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476037177, "dur":3954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476041137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476041146, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476044444, "dur":5067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476049516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476049525, "dur":7315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476056889, "dur":87221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476144116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476144126, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476146903, "dur":91618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476238527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719252476238537, "dur":10068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719252476248678, "dur":441464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252475983683, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252475983684, "dur":3422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252475987107, "dur":12456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1719252475999567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252475999580, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1719252476001588, "dur":7049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476008642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252476008653, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476011520, "dur":7903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476019429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252476019440, "dur":7040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476026658, "dur":4582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476031244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252476031252, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476034592, "dur":8128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476042724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252476042731, "dur":4977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476047762, "dur":270331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476318097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719252476318104, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719252476319219, "dur":370928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252475983664, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252475983665, "dur":3442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252475987108, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1719252475987738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252475988908, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1719252475992291, "dur":42155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2.exe" }}
+,{ "pid":12345, "tid":10, "ts":1719252476034450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252476034471, "dur":4617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2.exe" }}
+,{ "pid":12345, "tid":10, "ts":1719252476039129, "dur":11686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719252476050819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252476050828, "dur":6245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719252476057110, "dur":194843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719252476251958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719252476252009, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719252476253618, "dur":436503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252475983829, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252475983829, "dur":3194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252475987029, "dur":41095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1719252476028128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252476028801, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1719252476030239, "dur":4651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719252476034895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252476034903, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719252476038603, "dur":6638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719252476045248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252476045259, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719252476048995, "dur":371218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719252476420217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719252476420224, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719252476422753, "dur":267382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252475984072, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252475984073, "dur":3090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252475987164, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1719252475987325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252476000581, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1719252476002280, "dur":7246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476009532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252476009544, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476013348, "dur":21552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476034904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252476034911, "dur":4381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476039332, "dur":4153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476043489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252476043496, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476047337, "dur":105100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476152444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252476152456, "dur":17479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476169984, "dur":336757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476506745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719252476506752, "dur":8027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719252476514803, "dur":175324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252475984387, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252475984387, "dur":2715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252475987103, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1719252475987227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252475998360, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1719252476000512, "dur":8357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476008899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476008909, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476011390, "dur":5795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476017191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476017201, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476018836, "dur":4482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476023322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476023353, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476026903, "dur":5021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476031928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476031935, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476034236, "dur":6286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476040525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476040533, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476042980, "dur":4740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476047724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476047732, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476050442, "dur":102878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476153325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476153335, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476154659, "dur":178217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476332880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719252476332888, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719252476334229, "dur":355904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252475984272, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252475984272, "dur":2818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252475987090, "dur":11564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1719252475998673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252475998731, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1719252476000453, "dur":11430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476011887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476011893, "dur":6066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476018018, "dur":6766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476024788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476024807, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476028123, "dur":5194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476033321, "dur":104, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476033433, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476036135, "dur":4771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476040910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476040918, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476042566, "dur":5101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476047671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476047678, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476050530, "dur":153383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476203930, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476203941, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719252476205384, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":14, "ts":1719252476205420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476205427, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":14, "ts":1719252476207206, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476207244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476207251, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476208592, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1719252476208697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476208704, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1719252476209681, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/level2.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476209715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476209721, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/level2.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476211454, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1719252476211511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476211519, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1719252476212700, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/level1.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476212736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476212744, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/level1.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476213766, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1719252476213803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476213810, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1719252476214746, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476214781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476214788, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1719252476216578, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1719252476216636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476216642, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1719252476219019, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1719252476219144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719252476219151, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1719252476224212, "dur":465924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719252475984618, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719252475984618, "dur":2544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719252475987163, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1719252475987341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719252476092871, "dur":14293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1719252476107210, "dur":353632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719252476460845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719252476460852, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719252476462219, "dur":227940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252475984747, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252475984747, "dur":2413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252475987161, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1719252475987321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252475999992, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1719252476002635, "dur":8679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476011318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252476011324, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476016029, "dur":9648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476025682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252476025698, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476028542, "dur":4706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476033252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252476033259, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476036604, "dur":4811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476041419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252476041425, "dur":4916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476046403, "dur":118802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476165212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252476165223, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476166921, "dur":520314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476687239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719252476687245, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719252476690037, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":16, "ts":1719252476690039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1719252475984841, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1719252475984841, "dur":2264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1719252475987106, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1719252475987776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1719252475988838, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1719252475992257, "dur":106046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1719252476098309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1719252476098318, "dur":17588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1719252476115951, "dur":252322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":17, "ts":1719252476368277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1719252476368285, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":17, "ts":1719252476370467, "dur":319656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252475984912, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252475984912, "dur":2198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252475987110, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1719252475987272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476000050, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1719252476001352, "dur":5167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476006524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476006533, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476007924, "dur":6076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476014005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476014012, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476018580, "dur":4746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476023352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476023360, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476026755, "dur":5089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476031847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476031854, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476034970, "dur":6803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476041776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476041783, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476046226, "dur":200002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476246234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1719252476246244, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":18, "ts":1719252476248892, "dur":441271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252475983087, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252475983623, "dur":3415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252475987039, "dur":10804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1719252475997847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252475998070, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1719252475999818, "dur":6111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476005934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252476005943, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476007566, "dur":6358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476013929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252476013939, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476018221, "dur":5431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476023656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252476023662, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476027722, "dur":9851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476037578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252476037585, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476041582, "dur":4455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476046041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252476046048, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476048312, "dur":172642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476220959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1719252476220968, "dur":22972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1719252476243981, "dur":446134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252475983203, "dur":504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252475983711, "dur":3412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252475987124, "dur":10341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1719252475997471, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252475998025, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1719252476001593, "dur":9414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476011012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476011019, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476015086, "dur":5459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476020548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476020555, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476024687, "dur":5102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476029795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476029803, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476031621, "dur":4557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476036181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476036188, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476039176, "dur":4125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476043305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476043312, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476046479, "dur":107049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476153532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476153543, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476156679, "dur":143588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476300271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1719252476300278, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vantan/Desktop/20240625_/kumon2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1719252476301557, "dur":388603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719252476694144, "dur":1572, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1719252476702540, "dur": 7377, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1719252476701552, "dur": 8407, "ph": "X", "name": "Write chrome-trace events", "args": {} },
